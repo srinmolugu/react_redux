@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Slabo+27px&display=swap');
+body {
+  font-family: "Martel", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.header-class ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 14px 5px;
+  margin: 0;
+}
+.header-class li{
+  padding: 0 15px;
+  font-size: 14px;
+}
+.header-class {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
